@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildBlazorApps", "BuildBlazorApps\BuildBlazorApps.csproj", "{FB368CE1-C35A-4A17-B026-CD2E63AA7B66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_FirstApp", "01_FirstApp", "{7CB9E160-A1B7-4E1B-8F7A-3D0EDCB19008}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_DataInteraction", "02_DataInteraction", "{A0EA2CF0-C478-4A46-A71E-44AD340C8DCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Navigation", "03_Navigation", "{38A90F8C-13B6-483A-A6AD-47E45CBCF6B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_Forms", "04_Forms", "{E8B80DED-57DB-4706-B06C-C8C36B426FA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07_ConnectFour", "07_ConnectFour", "{93A12DC9-69A1-4987-8887-0537B334320B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_FirstApp", "01_FirstApp\01_FirstApp.csproj", "{AAC4E801-9DF4-41C8-8C41-0D53E6DDFD64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazingPizzaSite", "02_DataInteraction\BlazingPizzaSite\BlazingPizzaSite.csproj", "{977F90F1-D5B5-4140-AFC5-BAD75440DC27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "04_Forms\WebApplication\WebApplication\WebApplication.csproj", "{E31E2AFC-40F2-42D7-AD41-8E08DEB3DBCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication.Client", "04_Forms\WebApplication\WebApplication.Client\WebApplication.Client.csproj", "{AB1802E4-218F-4362-BE82-DFB09167510D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectFour", "07_ConnectFour\ConnectFour\ConnectFour.csproj", "{5F217764-A1D3-48A7-9DAD-4CDD7C4E5E4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazingPizza", "BlazingPizza\BlazingPizza.csproj", "{7051F04F-6953-4043-8DAA-F24AAA109589}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB368CE1-C35A-4A17-B026-CD2E63AA7B66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB368CE1-C35A-4A17-B026-CD2E63AA7B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB368CE1-C35A-4A17-B026-CD2E63AA7B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB368CE1-C35A-4A17-B026-CD2E63AA7B66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC4E801-9DF4-41C8-8C41-0D53E6DDFD64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC4E801-9DF4-41C8-8C41-0D53E6DDFD64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC4E801-9DF4-41C8-8C41-0D53E6DDFD64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC4E801-9DF4-41C8-8C41-0D53E6DDFD64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{977F90F1-D5B5-4140-AFC5-BAD75440DC27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{977F90F1-D5B5-4140-AFC5-BAD75440DC27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{977F90F1-D5B5-4140-AFC5-BAD75440DC27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{977F90F1-D5B5-4140-AFC5-BAD75440DC27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E31E2AFC-40F2-42D7-AD41-8E08DEB3DBCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E31E2AFC-40F2-42D7-AD41-8E08DEB3DBCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E31E2AFC-40F2-42D7-AD41-8E08DEB3DBCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E31E2AFC-40F2-42D7-AD41-8E08DEB3DBCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB1802E4-218F-4362-BE82-DFB09167510D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB1802E4-218F-4362-BE82-DFB09167510D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB1802E4-218F-4362-BE82-DFB09167510D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB1802E4-218F-4362-BE82-DFB09167510D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F217764-A1D3-48A7-9DAD-4CDD7C4E5E4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F217764-A1D3-48A7-9DAD-4CDD7C4E5E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F217764-A1D3-48A7-9DAD-4CDD7C4E5E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F217764-A1D3-48A7-9DAD-4CDD7C4E5E4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7051F04F-6953-4043-8DAA-F24AAA109589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7051F04F-6953-4043-8DAA-F24AAA109589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7051F04F-6953-4043-8DAA-F24AAA109589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7051F04F-6953-4043-8DAA-F24AAA109589}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AAC4E801-9DF4-41C8-8C41-0D53E6DDFD64} = {7CB9E160-A1B7-4E1B-8F7A-3D0EDCB19008}
+		{977F90F1-D5B5-4140-AFC5-BAD75440DC27} = {A0EA2CF0-C478-4A46-A71E-44AD340C8DCE}
+		{E31E2AFC-40F2-42D7-AD41-8E08DEB3DBCB} = {E8B80DED-57DB-4706-B06C-C8C36B426FA5}
+		{AB1802E4-218F-4362-BE82-DFB09167510D} = {E8B80DED-57DB-4706-B06C-C8C36B426FA5}
+		{5F217764-A1D3-48A7-9DAD-4CDD7C4E5E4E} = {93A12DC9-69A1-4987-8887-0537B334320B}
+		{7051F04F-6953-4043-8DAA-F24AAA109589} = {38A90F8C-13B6-483A-A6AD-47E45CBCF6B8}
+	EndGlobalSection
+EndGlobal
